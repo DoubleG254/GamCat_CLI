@@ -59,7 +59,7 @@ def search_game(name):
     else:
         click.echo("Search result:")
         for game in games:
-            click.echo(f" ID{game.id} Name{game.name}")
+            click.echo(f" ID:{game.id} Name:{game.name} Price:{game.price}")
             
 
 
